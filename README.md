@@ -1,4 +1,5 @@
-﻿`<script>
+﻿```
+<script>
 			var plusReady = function(callback) {
 				if (window.plus) {
 					callback();
@@ -29,4 +30,5 @@
 				};
 				plus.key.addEventListener('backbutton', handleBack);
 			});
-		</script>`
+		</script>
+```
